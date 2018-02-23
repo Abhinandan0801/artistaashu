@@ -1,0 +1,113 @@
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+    height: 75vh;
+    min-height: 50%;
+    background: no-repeat center center scroll;
+    background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon{
+	    background-image: url('../img/previous-button.jpg')
+}
+
+.carousel-control-next-icon{
+	    background-image: url('../img/next-button.jpg')
+}
+
+.carousel-indicators li{
+	background-color: #ffc107;
+}
+
+.carousel-indicators .active{
+	background-color: #004085;
+}
+
+/*CUSTOM CSS*/
+
+.bold-text{
+    font-weight: bold !important;
+}
+
+/*#mainNav .navbar-nav .nav-item .nav-link{
+    font-weight: bold !important;
+}*/
+
+.header-top-margin{
+    margin-top: 102px !important;
+}
+
+.team-member img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0c5460;
+}
+
+.service-img {
+    float: right;
+}
+
+.service-img img {
+    width: 50% !important;
+    height: 50% !important;
+    border: 1px solid #0c5460;
+}
+
+#contact-email{
+    color: #337ab7;
+}
+
+.form-control{
+    color: #004085;
+    background-color: rgb(129, 129, 130);
+
+}
+
+#nav-fb{
+    padding-top: 12%;
+    margin-left: 50%;
+}
+
+.timeline > li .timeline-image {
+    margin-left: -70px;
+}
+
+.timeline:before {
+    left: 53%;
+    width: 5px;
+    background-color: #fed136;
+}
+
+.timeline > li .timeline-panel {
+    padding: 0 20px 20px 80px;
+}
+
+.timeline > li {
+    min-height: 100px;
+}
+
+#footer_div{
+    text-align: center;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    padding: 0px 100px 20px 45px;
+}
+
+@media only screen and (max-width : 421px) {
+    .timeline > li .timeline-image {
+        margin-left: 0px !important;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel {
+    text-align: center;
+}
+
+.timeline:before {
+    left: 10% !important;
+}
+}
